@@ -155,7 +155,7 @@ export const projects: Project[] = [
 ];
 
 export const studentInfo = {
-  name: "Isaac Tan Yu Kai",
+  name: "Isaac Tan Yi Kai",
   title: "Aspiring Software Developer",
   bio: "A passionate and driven student with a strong foundation in software development, eager to contribute to innovative projects and continuously learn new technologies. Currently seeking challenging opportunities to apply my skills in a professional setting."
 };
