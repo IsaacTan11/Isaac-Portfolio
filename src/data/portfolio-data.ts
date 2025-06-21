@@ -50,7 +50,6 @@ export const navItems: NavItem[] = [
   { label: 'Home', href: '#home' },
   { label: 'Experience', href: '#experience' },
   { label: 'Education', href: '#education' },
-  { label: 'Certifications', href: '#certifications' },
   { label: 'Projects', href: '#projects' },
 ];
 
