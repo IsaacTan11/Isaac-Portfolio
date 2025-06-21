@@ -12,7 +12,7 @@ export function ProjectsSection() {
       <div className="container mx-auto max-w-6xl px-4">
         <h2 className="font-headline text-4xl md:text-5xl font-bold text-center mb-12 md:mb-16">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent">
-            Projects
+            Experience
           </span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -33,7 +33,7 @@ export function ProjectsSection() {
                 <CardTitle className="font-headline text-xl text-primary group-hover:text-accent transition-colors duration-300">{project.title}</CardTitle>
               </CardHeader>
               <CardContent className="flex-grow">
-                <CardDescription className="text-foreground/80 mb-3 text-sm leading-relaxed line-clamp-3">{project.description}</CardDescription>
+                <CardDescription className="text-foreground/90 mb-3 text-sm leading-relaxed line-clamp-20">{project.description}</CardDescription>
                 <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag) => (
                     <Badge key={tag} variant="secondary" className="bg-primary/10 text-primary border-primary/20">

@@ -23,14 +23,6 @@ export interface Education {
   logoUrl?: string;
 }
 
-export interface Certification {
-  id: string;
-  name: string;
-  issuingOrganization: string;
-  date: string;
-  logoUrl?: string;
-}
-
 export interface ProjectLink {
   label: string;
   href: string;
@@ -48,71 +40,54 @@ export interface Project {
 
 export const navItems: NavItem[] = [
   { label: 'Home', href: '#home' },
-  { label: 'Experience', href: '#experience' },
+  { label: 'Projects', href: '#experience' },
   { label: 'Education', href: '#education' },
-  { label: 'Projects', href: '#projects' },
+  { label: 'Experience', href: '#projects' },
 ];
 
 export const experiences: Experience[] = [
   {
     id: 'exp1',
-    role: 'Software Engineering Intern',
-    company: 'Tech Solutions Inc.',
-    period: 'Summer 2023',
+    role: 'Biotechnology Performance Task Project',
+    company: 'School of Science and Technology',
+    period: '2024',
     description: [
-      'Developed and maintained features for a web application using React and Node.js.',
-      'Collaborated with a team of 5 engineers in an agile environment.',
-      'Contributed to UI/UX design improvements, resulting in a 10% increase in user engagement.',
+      '"Investigation of the Protein Content in Chicken Breast and Thigh" Lab Report.',
+      'Performed experiments such as Bradford Assay, Spectrophotometer, etc.',
     ],
-    logoUrl: 'https://placehold.co/40x40.png',
+    logoUrl: 'https://schlah.com/logo/school-of-science-and-technology-singapore.jpg',
   },
   {
     id: 'exp2',
-    role: 'Teaching Assistant - Intro to Programming',
-    company: 'University of Advanced Studies',
-    period: '2022 - 2023',
+    role: 'SST NCCS Capstone Project',
+    company: 'National Cancer Centre Singapore',
+    period: '2024 - 2025',
     description: [
-      'Assisted professor in teaching Python programming concepts to over 100 students.',
-      'Graded assignments and provided constructive feedback.',
-      'Hosted weekly lab sessions and office hours.',
+      'Visited NCCS and toured around clinics, Wet Labs and offices.',
+      'Development of mobile application to predict NPC survival.',
+      'Research on Radioresistance and locally recurrent NPC.',
+      'Shadowed Dr Melvin Chua.',
     ],
-    logoUrl: 'https://placehold.co/40x40.png',
+    logoUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6GV0SI2hWhziJH5axpprpUrRER-aHWBangQ&s',
   },
 ];
 
 export const education: Education[] = [
   {
     id: 'edu1',
-    degree: 'Master of Science',
-    major: 'Computer Science',
-    institution: 'University of Advanced Studies',
-    period: '2022 - 2024',
-    logoUrl: 'https://placehold.co/40x40.png',
+    degree: 'Pei Tong Primary School',
+    major: '',
+    institution: '2016 - 2021',
+    period: '',
+    logoUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMHh390Gq2IWwECa3DpJ_YGdZTCsvF-QmBvQ&s',
   },
   {
     id: 'edu2',
-    degree: 'Bachelor of Science',
-    major: 'Software Engineering',
-    institution: 'Tech State University',
-    period: '2018 - 2022',
-    logoUrl: 'https://placehold.co/40x40.png',
-  },
-];
-
-export const certifications: Certification[] = [
-  {
-    id: 'cert1',
-    name: 'Certified Cloud Practitioner',
-    issuingOrganization: 'Cloud Services Corp.',
-    date: 'Issued May 2023',
-    logoUrl: 'https://placehold.co/40x40.png',
-  },
-  {
-    id: 'cert2',
-    name: 'Agile Foundations Professional',
-    issuingOrganization: 'Agile Institute',
-    date: 'Issued Jan 2022',
-    logoUrl: 'https://placehold.co/40x40.png',
+    degree: 'School of Science and Technology',
+    major: '',
+    institution: '2022 - 2025',
+    period: '',
+    logoUrl: 'https://schlah.com/logo/school-of-science-and-technology-singapore.jpg',
   },
 ];
 
@@ -120,13 +95,11 @@ export const projects: Project[] = [
   {
     id: 'proj1',
     title: 'Portfolio Website',
-    description: 'A personal portfolio website built with Next.js and Tailwind CSS to showcase my skills and projects. Features a responsive design and smooth animations.',
+    description: 'A personal portfolio website built with Next.js and Tailwind CSS. Coded using TypeScript.',
     imageUrl: 'https://placehold.co/600x400.png',
     imageHint: 'website design',
-    tags: ['Next.js', 'React', 'Tailwind CSS', 'TypeScript'],
+    tags: [],
     links: [
-      { label: 'GitHub', href: '#' },
-      { label: 'Live Demo', href: '#' },
     ],
   },
   {
@@ -135,9 +108,8 @@ export const projects: Project[] = [
     description: 'A full-stack task management application allowing users to create, organize, and track their tasks. Includes user authentication and real-time updates.',
     imageUrl: 'https://placehold.co/600x400.png',
     imageHint: 'application interface',
-    tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Firebase Auth'],
+    tags: [],
     links: [
-      { label: 'GitHub', href: '#' },
     ],
   },
   {
@@ -146,15 +118,14 @@ export const projects: Project[] = [
     description: 'A RESTful API for an e-commerce platform, supporting product management, user accounts, orders, and payments. Built with Python and Django Rest Framework.',
     imageUrl: 'https://placehold.co/600x400.png',
     imageHint: 'code abstract',
-    tags: ['Python', 'Django', 'REST API', 'PostgreSQL'],
+    tags: [],
     links: [
-      { label: 'GitHub', href: '#' },
     ],
   },
 ];
 
 export const studentInfo = {
   name: "Isaac Tan Yi Kai",
-  title: "Aspiring Software Developer",
-  bio: "A passionate and driven student with a strong foundation in software development, eager to contribute to innovative projects and continuously learn new technologies. Currently seeking challenging opportunities to apply my skills in a professional setting."
+  title: "Aspiring Biomedical Scientist",
+  bio: "A passionate and driven student with a strong foundation in Sciences, eager to contribute to innovative projects and continuously learn new skills. Currently seeking challenging opportunities to apply my skills in a professional setting."
 };

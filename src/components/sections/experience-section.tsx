@@ -9,7 +9,7 @@ export function ExperienceSection() {
       <div className="container mx-auto max-w-5xl px-4">
         <h2 className="font-headline text-4xl md:text-5xl font-bold text-center mb-12 md:mb-16">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent">
-            Experience
+            Projects
           </span>
         </h2>
         <div className="space-y-12 relative">
