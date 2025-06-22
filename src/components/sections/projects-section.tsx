@@ -22,7 +22,7 @@ export function ProjectsSection() {
                 <Image
                   src={project.imageUrl}
                   alt={project.title}
-                  fill
+                  overflow
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
                   data-ai-hint={project.imageHint}
