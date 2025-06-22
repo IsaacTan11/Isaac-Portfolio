@@ -55,6 +55,9 @@ export const experiences: Experience[] = [
       '"Investigation of the Protein Content in Chicken Breast and Thigh" Lab Report.',
       'Performed experiments such as Bradford Assay, Spectrophotometer, etc.',
     ],
+    learnedDescription: [
+      "Through this lab project, I gained hands-on experience analysing protein concentrations in chicken meat using Bradford assays and spectrophotometry. I developed skills in sample preparation, equipment calibration, and data analysis while learning how the different parts affected protein content. The work improved my problem-solving abilities when addressing technical issues and reinforced the importance of precise documentation in scientific research.",
+    ],
     logoUrl: 'https://schlah.com/logo/school-of-science-and-technology-singapore.jpg',
   },
   {
@@ -68,9 +71,14 @@ export const experiences: Experience[] = [
       'Research on Radioresistance and locally recurrent NPC.',
       'Shadowed Dr Melvin Chua.',
     ],
+    learnedDescription: [
+      "This capstone experience exposed me to medical research in oncology, especially in understanding cancer radioresistance. I also gained practical skills in mobile app development tailored for healthcare.",
+      "The project strengthened my ability to collaborate with professionals and manage a multidisciplinary project over an extended period."
+    ],
     logoUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6GV0SI2hWhziJH5axpprpUrRER-aHWBangQ&s',
   },
 ];
+
 
 export const education: Education[] = [
   {
@@ -83,7 +91,7 @@ export const education: Education[] = [
   },
   {
     id: 'edu2',
-    degree: 'School of Science and Technology',
+    degree: 'School of Science and Technology, Singapore',
     major: '',
     institution: '2022 - 2025',
     period: '',
