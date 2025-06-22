@@ -96,7 +96,7 @@ export const projects: Project[] = [
     id: 'proj1',
     title: 'Structured Work Attachment and Research Programme',
     description: 'Visited NCCS, where I observed wet lab work, learned about proton therapy through computer imaging, and attended an analytical sciences meeting about the local recurrence of patients cancer, helping me learn more about cancer treatment and research, connect with clinicians and researchers and gain a deeper understanding of the interdisciplinary nature of science research. ',
-    imageUrl: "/WhatsApp Image 2025-06-22 at 21.23.21.jpeg",
+    imageUrl: "/SWRAP.jpeg",
     imageHint: 'website design',
     tags: [],
     links: [
