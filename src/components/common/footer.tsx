@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import { Github, Linkedin, Instagram, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { studentInfo } from "@/data/portfolio-data";
 
@@ -7,10 +7,9 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { Icon: Github, href: "#", label: "GitHub" },
-    { Icon: Linkedin, href: "#", label: "LinkedIn" },
-    { Icon: Twitter, href: "#", label: "Twitter" },
-    { Icon: Mail, href: "mailto:placeholder@example.com", label: "Email" },
+    { Icon: Github, href: "https://github.com/IsaacTan11", label: "GitHub" },
+    { Icon: Instagram, href: "https://www.instagram.com/isaaaac.tyk/", label: "Instagram" },
+    { Icon: Mail, href: "mailto:tan_yi_kai_isaac@s2022.ssts.edu.sg", label: "Email" },
   ];
 
   return (
@@ -32,10 +31,10 @@ export function Footer() {
           ))}
         </div>
         <p className="text-sm text-muted-foreground">
-          &copy; {currentYear} {studentInfo.name}. All rights reserved.
+          &copy; {currentYear} {studentInfo.name}. 
         </p>
         <p className="text-xs text-muted-foreground/70 mt-1">
-          Built with Next.js & Tailwind CSS. Designed with passion.
+          Built with Next.js & Tailwind CSS. 
         </p>
       </div>
     </footer>

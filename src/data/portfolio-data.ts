@@ -183,7 +183,7 @@ export const projects: Project[] = [
   {
     id: 'proj9',
     title: 'Basketball CCA',
-    description: 'I participated in the Basketball C Division and later advanced to the B Division in the National Schools Games (NSG), where I honed my basketball skills and developed strong teamwork and leadership abilities. Competing at this level challenged me to improve my physical fitness, strategic thinking, and resilience, while fostering a sense of camaraderie and sportsmanship with my teammates. ',
+    description: 'I participated in the Basketball C Division and later advanced to the B Division in the National Schools Games (NSG), where I honed my basketball skills and developed strong teamwork and leadership abilities. Competing at this level challenged me to improve my physical fitness, strategic thinking, and resilience, while fostering a sense of camaraderie and sportsmanship with my teammates. Basketball has been a significant part of my secondary school journey, shaping both my character and daily routine. My passion for the game continues to grow, and it remains a key part of who I am.',
     imageUrl: "/IMG_0842.JPG",
     imageHint: 'code abstract',
     tags: [],
