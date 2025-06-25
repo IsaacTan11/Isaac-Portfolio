@@ -141,12 +141,12 @@ export function HeroSection() {
 
           {/* Skip fade arrow */}
           <button
-            onClick={() => setFadeStarted(true)}
-            className="absolute bottom-12 text-primary hover:text-primary/80 focus:outline-none z-20"
-            aria-label="Skip quote fade"
-          >
-            <ArrowDown className="w-10 h-10 animate-bounce cursor-pointer" />
-          </button>
+  onClick={() => setFadeStarted(true)}
+  className="absolute bottom-12 px-6 py-2 rounded-md bg-primary text-primary-foreground hover:bg-primary/90 transition z-20 shadow-md"
+>
+  Proceed
+</button>
+
         </section>
       )}
     </>
