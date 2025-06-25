@@ -148,6 +148,7 @@ export const projects: Project[] = [
     imageHint: 'code abstract',
     tags: [],
     links: [
+      { label: 'Slides', href: 'https://docs.google.com/presentation/d/1cCu9Sgly8TRJFWegLSii28Z_iRY4D7yiv7RGgTNGvUE/edit?slide=id.p#slide=id.p' },
     ],
   },
   {
@@ -178,6 +179,7 @@ export const projects: Project[] = [
     imageHint: 'code abstract',
     tags: [],
     links: [
+      { label: 'Slides', href: 'https://docs.google.com/presentation/d/1z8UpvegMtrR1yRvGzB3sxjDwSdFFijDsoFO14qsL9fY/edit?slide=id.p#slide=id.p' },
     ],
   },
   {
@@ -192,8 +194,16 @@ export const projects: Project[] = [
   },
 ];
 
+// portfolio-data.ts
 export const studentInfo = {
   name: "Isaac Tan Yi Kai",
   title: "Aspiring Biomedical Scientist",
-  bio: "A passionate and driven student with a strong foundation in Sciences, eager to contribute to innovative projects and continuously learn new skills. Currently seeking challenging opportunities to apply my skills in a professional setting."
+  bio: "A passionate and driven student with a strong foundation in Sciences, eager to contribute to innovative projects and continuously learn new skills. Currently seeking challenging opportunities to apply my skills in a professional setting.",
+  imageUrl: "/Screenshot 2025-06-25 at 4.06.44 PM.png", // Make sure this exists in /public/images
+
+  // ✅ New fields for quote section
+  quote: "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+  quoteAuthor: "Winston Churchill"
 };
+
+

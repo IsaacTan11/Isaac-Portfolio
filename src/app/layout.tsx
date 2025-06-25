@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'Violet Ascent - Student Portfolio',
+  title: "Tan Yi Kai Isaac's Portfolio",
   description: 'A personal portfolio showcasing projects, experience, and skills.',
 };
 
